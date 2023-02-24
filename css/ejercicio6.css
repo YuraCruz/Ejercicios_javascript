@@ -1,0 +1,68 @@
+html,body{
+    background-color: rgb(101, 133, 112);
+}
+
+.formato {
+    margin-top: 250px; 
+    margin-bottom: 100px;
+    background-color: rgb(101, 133, 112);
+    padding-left: 680px;
+    padding-right: 680px;
+    border-right-width: 250px;
+  }
+
+.contenedor{
+    display: flex;
+    align-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-style:inset;
+    background-color: rgba(7, 95, 217, 0.808);
+    margin-top: 30px;
+    padding-right: 15px;
+    margin-bottom: 30px;
+    padding-left: 15px;
+    width: 300px;
+    height: 300px;
+}
+
+h5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    margin-top: 15px !important;
+    align-content: center;
+
+}
+
+input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px !important;
+    margin-left: 50px !important;
+    margin-right: 50px !important;  
+
+}
+
+
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px !important;
+    margin-left: 70px !important;
+    margin-right: 70px !important;  
+}
+
+label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    margin: 15px;
+    margin-left: 15px !important;
+    margin-right: 0px !important;  
+    font-weight:  bolder;
+}
