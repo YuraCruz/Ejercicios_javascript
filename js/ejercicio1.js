@@ -3,21 +3,30 @@
    cualquier numero divisible por 2 es par
 
  */
+   const btnAceptar = document.querySelector("#btn");
+   const valueInput = document.querySelector("#input");
+   const valueLabel = document.querySelector("#label");
 
 
 
+   function esNumeroPar ( numeroIngresado = 0 ){
 
-   function esNumeroPar ( numeroIngresado ){
-       
-         if ((numeroIngresado % 2) === 0){
+       if (!Number.isInteger(numeroIngresado)){
+        return `por favor ingrese un número`;
+       }
+         
+       if ((numeroIngresado % 2) === 0){
              
-             return `es ${numeroIngresado} numero Par`
+             return `Resultado: El ${numeroIngresado} es  numero Par`;
          }
          else{
-             return `es ${numeroIngresado} numero impar`
+             return `Resultado: El ${numeroIngresado} es  numero Impar`;
          }
          
-         
-        
-   }
-   console.log(esNumeroPar(5))
+        }  
+   
+
+ btnAceptar.addEventListener('click',() => { 
+  valueLabel.innerHTML=esNumeroPar( parseInt(valueInput.value) );
+
+ })
