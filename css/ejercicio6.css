@@ -1,11 +1,11 @@
 html,body{
-    background-color: rgb(101, 133, 112);
+    background-color: rgb(252, 253, 253);
 }
 
 .formato {
     margin-top: 250px; 
     margin-bottom: 100px;
-    background-color: rgb(101, 133, 112);
+    background-color: rgb(252, 253, 253);
     padding-left: 680px;
     padding-right: 680px;
     border-right-width: 250px;
@@ -17,7 +17,7 @@ html,body{
     flex-wrap: wrap;
     flex-direction: column;
     border-style:inset;
-    background-color: rgba(7, 95, 217, 0.808);
+    background-color: rgba(246, 247, 202, 0.808);
     margin-top: 30px;
     padding-right: 15px;
     margin-bottom: 30px;
